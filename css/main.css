@@ -1,0 +1,76 @@
+@charset "UTF-8";
+body {
+  overflow-x: hidden;
+  /*для горизонтального*/ }
+
+.first-col {
+  background-color: #fdde00;
+  font-family: "GothamPro", sans-serif;
+  height: 1080px; }
+  .first-col .about {
+    padding-top: 37px;
+    justify-content: center; }
+  .first-col h1 {
+    font-size: 48px;
+    padding-top: 315px; }
+    .first-col h1 span {
+      text-transform: uppercase; }
+  .first-col h2 {
+    font-size: 54px; }
+  .first-col h3 {
+    font-size: 32px;
+    text-transform: uppercase;
+    padding-left: 35px; }
+  .first-col .vl {
+    border-left: 6px solid #000;
+    height: 95px;
+    margin-left: 27px;
+    margin-right: 20px; }
+  .first-col h4 {
+    font-size: 30px; }
+  .first-col p {
+    font-family: "GothamPro300", sans-serif;
+    font-size: 16px;
+    width: 410px;
+    padding-top: 20px;
+    text-align-last: left; }
+  .first-col .forms {
+    justify-content: center; }
+    .first-col .forms input {
+      padding: 10px 15px;
+      padding-right: 40px;
+      margin-right: 20px;
+      margin-top: 54px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  .first-col .button {
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    padding: 15px 55px;
+    margin-left: 182px;
+    margin-top: 50px;
+    border-radius: 3px; }
+
+.cont .iphone {
+  position: absolute;
+  top: -945px;
+  left: 945px; }
+
+.cont .ipad {
+  position: absolute;
+  top: -965px;
+  left: 1300px; }
+
+@font-face {
+  font-family: "GothamPro";
+  src: url("../fonts/GothamPro-Black.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "GothamPro300";
+  src: url("../fonts/GothamPro-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+/*# sourceMappingURL=main.css.map */
